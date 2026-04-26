@@ -1,0 +1,29 @@
+# Data (too large for git)
+data/raw/
+data/interim/
+
+# Keep only the master processed file for deployment
+data/processed/reviews_raw.parquet
+data/processed/reviews_processed.parquet
+data/processed/reviews_sentiment.parquet
+
+# Credentials
+.env
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+
+# Logs (keep structure, not content)
+logs/*.log
+
+# Outputs (generated artifacts)
+outputs/models/
+
+# Keep figures for portfolio
+!outputs/figures/.gitkeep
+
+venv/
